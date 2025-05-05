@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#cabecera {
+    background-color: #00669F;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+#descuento {
+    font-size: 1.2em;
+    color: #333;
+    background-color: #D1891C;
+    padding-left: 20px;
+}
+
+#descuento p {
+    margin: 0;
+    padding: 0;
+}
+
+#titulo {
+    color: white;
+    margin: 0;
+    padding-left: 20px;
+    padding-bottom: 4px;
+}
+
+.nuevo {
+    position: fixed;
+    top: 50%;
+    right: 20px;
+    background-color: #00669F;
+    color: white;
+    width: 80px;
+    height: 80px;
+    padding: 0;
+    margin-top: -40px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    font-size: 32px;
+    z-index: 100;
+}
+
+header h1 {
+    padding: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.card {
+    position: relative;
+    width: 300px;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #F3F3F3;
+    border-radius: 25px 25px 0px 0px;
+    margin: 40px;
+    box-shadow: 0 4px 2px rgba(0, 0, 0, 0.2);
+}
+
+.banner {
+    position: absolute;
+    background-image: url(./images/banners/batman.jpg);
+    width: 100%;
+    height: 200px;
+    border-radius: 25px 25px 0px 0px;
+    top: 0;
+}
+
+.like {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.like-blur {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    filter: blur(5px);
+}
+
+.profile-picture {
+    position: absolute;
+    top: 125px;
+    left: 75px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #f3f3f3;
+}
+
+.card-info {
+    position: absolute;
+    top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    padding: 20px;
+
+}
+
+.card-info p {
+    color: #333333;
+    margin-top: 0;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.card button {
+    position: absolute;
+    bottom: 30px;
+    background-color: #00669F;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 14px 40px;
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #00669F;
+    color: white;
+}
+
+footer h2 {
+    text-align: right;
+    font-size: 2em;
+    padding-right: 20px;
+}
+
+footer div {
+    width: 33.33%;
+}
+
+.batman {
+    background-image: url(./images/profile-pictures/batman-profile.jpg);
+    background-position: -146px 5px;
+    background-size: 270%;
+}
+
+.banner-batman {
+    background-image: url(./images/banners/batman.jpg);
+    background-size: 200%;
+    background-position: -200px;
+}
+
+.wonder-woman {
+    background-image: url(./images/profile-pictures/wonder-woman-profile.jpg);
+    background-position: -110px 0px;
+    background-size: 240%;
+}
+
+.banner-wonder-woman {
+    background-image: url(./images/banners/wonder-woman.jpg);
+    background-size: 190%;
+    background-position: -190px;
+}
+
+.superman {
+    background-image: url(./images/profile-pictures/superman-profile.jpg);
+    background-position: -135px 0px;
+    background-size: 95%;
+}
+
+.banner-superman {
+    background-image: url(./images/banners/superman.jpg);
+    background-size: 200%;
+    background-position: -200px;
+}
+
+.harley-quinn {
+    background-image: url(./images/profile-pictures/harley-quinn-profile.jpg);
+    background-position: -70px -7px;
+    background-size: 200%;
+}
+
+.banner-harley-quinn {
+    background-image: url(./images/banners/harley-quinn.jpg);
+    background-size: 200%;
+    background-position: -215px;
+}
+
+.aquaman {
+    background-image: url(./images/profile-pictures/aquaman-profile.png);
+    background-position: -50px -10px;
+    background-size: 170%;
+}
+
+.banner-aquaman {
+    background-image: url(./images/banners/aquaman.jpg);
+    background-size: 130%;
+    background-position: 0px;
+}
+
+.flash {
+    background-image: url(./images/profile-pictures/flash-profile.jpg);
+    background-position: -48px 0px;
+    background-size: 170%;
+}
+
+.banner-flash {
+    background-image: url(./images/banners/flash.jpg);
+    background-size: 200%;
+    background-position: 0px;
+}
