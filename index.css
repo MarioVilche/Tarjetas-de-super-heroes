@@ -150,14 +150,23 @@ footer {
     color: white;
 }
 
-footer h2 {
+#link-container {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
     text-align: right;
     font-size: 2em;
     padding-right: 20px;
 }
 
 footer div {
-    width: 33.33%;
+    width: 20%;
 }
 
 .batman {
